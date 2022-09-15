@@ -1,8 +1,8 @@
 function HomeCarosel(props) {
     
     return (
-        <div class="slideshow-container">
-
+        <div >
+            <p>im pictures </p>
         </div>
     )
 }

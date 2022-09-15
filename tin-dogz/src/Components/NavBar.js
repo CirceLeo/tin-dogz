@@ -2,20 +2,20 @@ function NavBar(props) {
     
     return (
         // <NavBar />
-        <nav class="navbar navbar-expand-sm bg-primary navbar-light">
-            <div class="container-fluid">
-                <ul class="navbar-nav">
-                    <li class="nav-item">
-                        <a class="nav-link">I</a>
+        <nav className="navbar navbar-expand-sm bg-primary navbar-light">
+            <div className="container-fluid">
+                <ul className="navbar-nav">
+                    <li className="nav-item">
+                        <a className="nav-link">I</a>
                     </li>
-                    <li class="nav-item">
-                        <a class="nav-link">Love</a>
+                    <li className="nav-item">
+                        <a className="nav-link">Love</a>
                     </li>
-                    <li class="nav-item">
-                        <a class="nav-link">Dogs</a>
+                    <li className="nav-item">
+                        <a className="nav-link">Dogs</a>
                     </li>
-                    <li class="nav-item">
-                        <a class="nav-link">Login</a>
+                    <li className="nav-item">
+                        <a className="nav-link">Login</a>
                     </li>
                 </ul>
             </div>
