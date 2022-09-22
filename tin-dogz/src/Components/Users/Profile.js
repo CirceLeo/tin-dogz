@@ -1,6 +1,9 @@
-
-function Profile(){
-
+function Profile(props) {
+    
+    return (
+        <div>
+            <p>omg a profile</p>
+        </div>
+    )
 }
-
-export default Profile;
+export default Profile

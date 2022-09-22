@@ -1,7 +1,6 @@
 function NavBar(props) {
     
     return (
-        // <NavBar />
         <nav className="navbar navbar-expand-sm bg-primary navbar-light">
             <div className="container-fluid">
                 <ul className="navbar-nav">
@@ -14,15 +13,12 @@ function NavBar(props) {
                     <li className="nav-item">
                         <a  href="/matches" className="nav-link">Meet a dog!</a>
                     </li>
-                    <li className="nav-item">
+                    {/* <li className="nav-item">
                         <a className="nav-link">Login</a>
-                    </li>
+                    </li> */}
                 </ul>
             </div>
         </nav>
-        // <div>
-        //     <p>hi im a nav bar pls navigate</p>
-        // </div>
     )
 }
 export default NavBar
