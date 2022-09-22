@@ -9,10 +9,10 @@ function NavBar(props) {
                         <a href="/" className="nav-link">Home</a>
                     </li>
                     <li className="nav-item">
-                        <a  href="/me" cclassName="nav-link">Profile</a>
+                        <a  href="/me" className="nav-link">Profile</a>
                     </li>
                     <li className="nav-item">
-                        <a  href="/matches" cclassName="nav-link">Meet a dog!</a>
+                        <a  href="/matches" className="nav-link">Meet a dog!</a>
                     </li>
                     <li className="nav-item">
                         <a className="nav-link">Login</a>
