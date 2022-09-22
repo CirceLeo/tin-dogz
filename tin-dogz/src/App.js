@@ -4,7 +4,6 @@ import HomePage from './Components/Home Things/HomePage';
 import Potential from './Components/Users/Potential'
 import Profile from './Components/Users/Profile'
 
-// import ReactDOM from 'react-dom';
 import { BrowserRouter as Router, Routes, Route} from 'react-router-dom';
 
 function App() {
