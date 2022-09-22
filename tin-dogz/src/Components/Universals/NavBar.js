@@ -1,7 +1,9 @@
+
+
 function NavBar(props) {
     
     return (
-        // <NavBar />
+       
         <nav class="navbar navbar-expand-sm bg-primary navbar-light">
             <div class="container-fluid">
                 <ul class="navbar-nav">
@@ -20,9 +22,7 @@ function NavBar(props) {
                 </ul>
             </div>
         </nav>
-        // <div>
-        //     <p>hi im a nav bar pls navigate</p>
-        // </div>
+        
     )
 }
 export default NavBar
