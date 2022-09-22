@@ -1,17 +1,24 @@
 import './App.css';
 import NavBar from './Components/Universals/NavBar';
 import HomePage from './Components/Home Things/HomePage';
-import {Potential, Profile} from './Components/Users'
+import Potential from './Components/Users/Potential'
+import Profile from './Components/Users/Profile'
+
+// import ReactDOM from 'react-dom';
 import { BrowserRouter as Router, Routes, Route} from 'react-router-dom';
 
 function App() {
   return (
     <div className="App">
+
       <NavBar />
-     
-      <Potential/>
-      <Profile/>
-      <HomePage />
+      <Router>
+        <Routes>
+          <Route path='/' element={<HomePage />} />
+          <Route path='/me' element={<Profile />} />
+          <Route path='/matches' element={<Potential />} />
+        </Routes>
+      </Router>
     </div>
   );
 }

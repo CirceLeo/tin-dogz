@@ -6,13 +6,13 @@ function NavBar(props) {
             <div className="container-fluid">
                 <ul className="navbar-nav">
                     <li className="nav-item">
-                        <a className="nav-link">I</a>
+                        <a href="/" className="nav-link">Home</a>
                     </li>
                     <li className="nav-item">
-                        <a className="nav-link">Love</a>
+                        <a  href="/me" cclassName="nav-link">Profile</a>
                     </li>
                     <li className="nav-item">
-                        <a className="nav-link">Dogs</a>
+                        <a  href="/matches" cclassName="nav-link">Meet a dog!</a>
                     </li>
                     <li className="nav-item">
                         <a className="nav-link">Login</a>
